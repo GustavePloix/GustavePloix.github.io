@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'montserratextralight';
+    src: url('fonts/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	margin:0px;
+}
+
+#logo
+{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 433px;
+}
+
+#navbar
+{
+	border: 1px solid #F0F0F0;
+	width: 578px;
+	height: 54px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'montserratextralight';
+	font-size: 17px;
+	color: #939393;
+	position: absolute;
+	top: 340px;
+	left: 394px;
+	box-shadow: 0px 2px 2px;
+}
+
+#search
+{
+	position: absolute;
+	top: 356px;
+	left: 419px;
+}
+
+#micro
+{
+	position: absolute;
+	top: 356px;
+	right: 420px;
+}
+
+input
+{
+	width: 414px;
+	height: 50px;
+	text-align: center;
+	border:1px solid white;
+	font-family: 'montserratextralight';
+	font-size:15px;
+	outline: none;
+}
+
+#jugement
+{
+	font-family: arial;
+	font-size: 12px;
+	color: blue;
+	text-decoration: none;
+}
+
+#case
+{
+	border: 1px solid #B9B9B9;
+	width: 250px;
+	height: 25px;
+	text-align: center;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	left: 558px;
+	bottom: 10px;
+}
+
+.gb_6e
+{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 17px;
+	right: 163px;
+}
+
+#bouton
+{
+	width: 100px;
+	height: 30px;
+	background-color: #3E61D6;
+	border-radius: 3px;
+	position: absolute;
+	top: 17px;
+	right: 37px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: arial;
+	color: white;
+}
+
+#gmail
+{
+	font-family: arial;
+	font-size: 15px;
+	position: absolute;
+	top: 10px;
+	right: 219px;
+}
+
+#cercle
+{
+	border: 1px solid #EFEFEF;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #EFEFEF;
+	position: absolute;
+	top: 422px;
+	left: 648px;
+}
+
+#croixH
+{
+	position: absolute;
+	left: 10px;
+	top: 25px;
+	border: 1px solid #707070;
+	height: 0px;
+	width: 30px;
+}
+
+
+#croixV
+{
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	border: 1px solid #707070;
+	height: 30px;
+	width: 0px;
+}
+
+#ajouter
+{
+	    font-family: 'montserratextralight';
+	    position: absolute;
+	    top: 476px;
+	    left: 595px;
+}
+
+
+#images
+{
+	font-family: arial;
+	font-size: 15px;
+	position: absolute;
+	top: 10px;
+	right: 288px;
+}
+
+
+#connection
+{
+	color: black;
+	text-decoration: none;
+}
+
+#googleImages
+{
+	color: black;
+	text-decoration: none;
+}
+
+#boutonCo
+{
+	color: white;
+	text-decoration: none;
+}
+
+svg
+{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 17px;
+	right: 163px;
+}
+
+.icones
+{
+	width: 50px;
+	height:50px;
+}
+
+.moi
+{
+	position: relative;
+	top: 25px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+}
+
+.items
+{
+	width: 70px;
+	height: 70px;
+	position: relative;
+	top: 25px;
+}
+
+#rien
+{
+	width: 70px;
+	height: 70px;
+}
+
+#menu
+{
+	display: none;
+}
+
+#un:hover #menu
+{
+	border: 1px solid #A5A5A7;
+	box-shadow: inset 0px 1px 1px #A5A5A7;
+	width: 250px;
+	height: 500px;
+	border-radius: 8px;
+	position: absolute;
+	top: 45px;
+	right: 45px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
